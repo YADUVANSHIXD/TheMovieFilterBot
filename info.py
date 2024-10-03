@@ -37,12 +37,12 @@ DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1002224752949'))
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002471108414'))
 auth_channel = environ.get('AUTH_CHANNEL', '-1002245438957')
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002041612661'))
-request_channel = environ.get('REQUEST_CHANNEL', '-1002244911983')
+request_channel = environ.get('REQUEST_CHANNEL', '-1002478884839')
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002296473971'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/YaduvanshiXsupport') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-IS_VERIFY = is_enabled('IS_VERIFY', True)
+IS_VERIFY = is_enabled('IS_VERIFY', False)
 #---------------------------------------------------------------
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/How_to_open_movielink")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
@@ -52,7 +52,7 @@ SHORTENER_API2 = environ.get("SHORTENER_API2", "90e29f189969e1041b47ae54be34cf46
 SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'Publicearn.com')
 SHORTENER_API3 = environ.get("SHORTENER_API3", "e36fc95289f44c5b5af8ef6daa44dcf75ddaecd1")
 SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'Tryshort.in')
-TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "14400"))
+TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "43200"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "14400"))
 #---------------------------------------------------------------
 #---------------------------------------------------------------
